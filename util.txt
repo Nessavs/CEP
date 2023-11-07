@@ -1,0 +1,16 @@
+URLs para testar os códigos PHP:
+
+Listar cidade:
+http://127.0.0.1/CEP/back/cidade_listar.php
+
+Criar cidade:
+http://127.0.0.1/CEP/back/cidade_inserir.php?cidade=Cascavel&estado=PR
+
+Alterar cidade:
+http://127.0.0.1/CEP/back/cidade_alterar.php?cidade=Cascavel&estado=PR&idcidade=9
+
+Excluir cidade: 
+http://127.0.0.1/CEP/back/cidade_excluir.php?idcidade=9
+
+
+http://127.0.0.1/cep/
