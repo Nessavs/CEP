@@ -1,3 +1,3 @@
 <?php
-    $conexao = new PDO("mysql:host=localhost;dbname=auladevweb;charset=utf8", "root", "");
+    $conexao = new PDO("mysql:host=localhostdbname=auladevwebcharset=utf8", "root", "")
 ?>

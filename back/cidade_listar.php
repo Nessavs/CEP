@@ -1,18 +1,18 @@
 <?php
     //conectar com database
-    require 'banco.php';
+    require 'banco.php'
 
-    $sql = "select * from cidade order by cidade";
-    $consulta = $conexao->prepare($sql);
-    $consulta->execute();
-    // $linhas = $consulta->rowCount();
+    $sql = "select * from cidade order by cidade"
+    $consulta = $conexao->prepare($sql)
+    $consulta->execute()
+    // $linhas = $consulta->rowCount()
 
-    // echo $linhas;
+    // echo $linhas
 
-    $dados = $consulta->fetchAll(PDO::FETCH_OBJ);
+    $dados = $consulta->fetchAll(PDO::FETCH_OBJ)
 
-    $json = json_encode($dados);
+    $json = json_encode($dados)
 
 
-    echo $json;
+    echo $json
 ?>
